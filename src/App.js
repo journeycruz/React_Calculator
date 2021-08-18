@@ -1,10 +1,18 @@
+import React, { Component } from 'react'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-    </div>
-  );
-}
+export default class App extends Component {
+  state = {
+    total: null,
+    next: null,
+    operation: null
+  };
 
-export default App;
+  render() {
+    return (
+      <div>
+        
+      </div>
+    )
+  }
+}
